@@ -1,11 +1,11 @@
-import Footer from "../components/Footer"
+import Footer from "../components/layout/Footer"
 import Head from "next/head"
 
 function about()  {
 
     return (
     <>
- 
+  
     <h1 className="content">About</h1>
     </>
 
