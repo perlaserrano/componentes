@@ -16,6 +16,7 @@ function MyApp({ Component, pageProps }: AppProps) {
        <Head>
         <title>Perla Serrano Web</title>
         <meta name="description" content="Curso de Next JS" />
+      
     </Head>
     
     

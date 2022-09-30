@@ -7,7 +7,7 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Perla Serrano Web</title>
+        <title>International News</title>
         <meta name="description" content="Curso de Next JS" />
     </Head>
     
