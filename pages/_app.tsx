@@ -6,6 +6,7 @@ import Footer from '../components/layout/Footer'
 import '../styles/layout.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import Script from 'next/script'
+import NavBar from '../components/layout/NavBar'
 
 
 function MyApp({ Component, pageProps }: AppProps) {
@@ -19,9 +20,11 @@ function MyApp({ Component, pageProps }: AppProps) {
     
     
     <Header /> 
+    <NavBar />
     <Component {...pageProps} />
     
     <Footer /> 
+
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 

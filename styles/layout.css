@@ -1,24 +1,98 @@
+
+body{
+   background:url(../public/image/free-final-cut-pro-templates.avif);
+
+}
 .layout-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #264653;
-    color: #f4a261;
-    font-size: 30px;
-    text-align: center;
-    padding: 30px;
+    color: #d04c99;
+    font-size: 14px;
+
+
+   
 
 }
 
 .layout-footer{
-    background-color: #264653;
-    color: #e9c46e;
+    color:white;
     font-size: 30px;
-    text-align: center;
     padding: 20px;
-  
 }
 
 .content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    display:inline;
+    list-style: none;
+
+ 
+    
 }
+ul{
+    gap: 15px;
+    display: inherit;
+    padding: 30px;
+}
+
+
+
+ li{
+   
+    list-style: none;
+  
+}
+li > a{
+    color: white;
+    display: flex;
+    text-decoration: none;
+  
+}
+.container-buttons{
+    display: flex;
+    gap: 15px;
+    padding: 30px;
+}
+
+.new-news {
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    font-size: 30px;
+    flex-flow: 1;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px;
+    padding: 9px;
+    color: rgb(217, 233, 233);
+    justify-items: end;
+    margin-top: -13%;
+
+
+}
+span {
+
+
+    color: white;
+    font-size: 20px;
+}
+
+.seccion-clima{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    color: rgb(217, 233, 233);
+    flex-flow: 1;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px;
+    flex-flow: 1;
+    padding: 20px;
+    justify-items: end;
+
+}
+
+.seccion-news li{
+
+}
+
+
