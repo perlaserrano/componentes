@@ -33,21 +33,6 @@ function NavBar() {
     return <div >
 
         <section>
-            <div className="card" style={{ width: "18rem", backgroundColor: "#c3b4b438" }}>
-                <div className="card-header btn-close-white">
-                    Sections News
-                </div>
-                <form onSubmit={handlerSubmit} style={{ marginLeft: "25px" }} action="text">
-                    <ul className="list-group list-group-flush">
-                        <li className="list-group-item btn-link international">International</li>
-                        <li className="list-group-item btn-link">Society</li>
-                        <li className="list-group-item btn-link">Sport</li>
-                        <input onChange={handlerChange} name="comment" value={comments.comment} placeholder="Search" type="text" />
-                    </ul>
-                    <button className="btn btn-primary">Enviar</button>
-                </form>
-            </div>
-
             <div className="col-md-8">
                 <div style={{marginRight:"17%", width:"92%"}} className="container p-lg-0">
                     <div className="row">
@@ -81,7 +66,24 @@ function NavBar() {
 
                 </div>
 
+                <div className="card" style={{ width: "18rem", backgroundColor: "#c3b4b438" }}>
+                <div className="card-header btn-close-white">
+                    Sections News
+                </div>
+                <form onSubmit={handlerSubmit} style={{ marginLeft: "25px" }} action="text">
+                    <ul className="list-group list-group-flush">
+                        <li className="list-group-item btn-link international">International</li>
+                        <li className="list-group-item btn-link">Society</li>
+                        <li className="list-group-item btn-link">Sport</li>
+                        <input onChange={handlerChange} name="comment" value={comments.comment} placeholder="Search" type="text" />
+                    </ul>
+                    <button className="btn btn-primary">Enviar</button>
+                </form>
             </div>
+
+            </div>
+
+
 
 
 
