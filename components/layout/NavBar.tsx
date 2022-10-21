@@ -33,7 +33,7 @@ function NavBar() {
     return <div >
 
         <section>
-            {/* <div className="card" style={{ width: "18rem", backgroundColor: "#c3b4b438" }}>
+            <div className="card" style={{ width: "18rem", backgroundColor: "#c3b4b438" }}>
                 <div className="card-header btn-close-white">
                     Sections News
                 </div>
@@ -46,7 +46,7 @@ function NavBar() {
                     </ul>
                     <button className="btn btn-primary">Enviar</button>
                 </form>
-            </div> */}
+            </div>
 
             <div className="col-md-8">
                 <div style={{marginRight:"17%", width:"92%"}} className="container p-lg-0">
