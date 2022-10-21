@@ -10,7 +10,7 @@ const Home: NextPage = () => {
         <title>International News</title>
         <meta name="description" content="Curso de Next JS" />
     </Head>
-    
+
 
     </div>
   )

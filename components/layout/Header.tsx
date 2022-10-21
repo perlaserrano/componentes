@@ -1,20 +1,23 @@
+import { useRouter } from 'next/router'
+
 function Header() {
-    return <div   className="layout-header">
-            <p style={{color:"white", fontSize:"55px", paddingRight:"200px"}}>international News</p>
+    return <div   className="layout-header ">
             
-            <ul >
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contacts</a></li>
+            <ul className='nav nav-pills'>
+                <li className='nav-item'><a className="nav-link active" aria-current="page" href="#">Home</a></li>
+                <li className='nav-item'><a className="nav-link"  href="#" >About</a></li>
+                <li className='nav-item'><a className="nav-link" href="#">Services</a></li>
+                <li className='nav-item'><a className="nav-link" href="#">Contacts</a></li>
             </ul>
             
 
             <div className="container-buttons">
-                <button className="btn btn-warning" >Sign In</button>
-                <button className="btn btn-warning" >Sign Up</button>
+
+                <button className="btn btn-light" >Sign In</button>
+                <button className="btn btn-light" >Sign Up</button>
 
             </div>
+            
 
          
 
